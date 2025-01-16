@@ -17,8 +17,15 @@ img{
     gap: 5px;
 }
 .vertical-container{
-    height: 50%;
+    /* height: 50%; */
+    /* ekhane sudhu 50% dile image gulo kono gap na rekhei 50% place niye nibe but ekhane jodi gap spache total 10px bad dei tahole eita perfect hobe */
+    height: calc((100% - 5px)/2) ;
 }
 .second-layer{
     margin: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
