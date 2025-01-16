@@ -113,7 +113,7 @@ p{
     }
     
 }
-@media screen and (max-width: 359px){
+@media screen and (max-width: 360px){
     .row{
         flex-direction: column;
     }
@@ -153,7 +153,13 @@ p{
     p{
         padding: 20px;
     }
+    main{
+        padding: 100px;
+        margin: 0px;
+    }
+
     
 }
+
 
    
